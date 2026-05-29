@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_1/sim/bd_bc9e_psr_aclk_0.vhd" \
+"../../../bd/aes/ip/aes_rst_ps7_0_50M_2/sim/aes_rst_ps7_0_50M_2.vhd" \
+
+# Do not sort compile order
+nosort

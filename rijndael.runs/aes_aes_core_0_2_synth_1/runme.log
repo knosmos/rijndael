@@ -1,0 +1,463 @@
+
+*** Running vivado
+    with args -log aes_aes_core_0_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes_aes_core_0_2.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri May 29 14:56:44 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source aes_aes_core_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/proj/rijndael/ip_repo/aes_core_1_0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/proj/rijndael/ip_repo/aes_core_1_0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/proj/rijndael/ip_repo/aes_core_1_0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/proj/rijndael/ip_repo/aes_core_1_0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/proj/rijndael/ip_repo/aes_core_1_0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/proj/ip_repo/aes_core_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/2025.1/Vivado/data/ip'.
+Command: synth_design -top aes_aes_core_0_2 -part xc7z007sclg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20672
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1227.035 ; gain = 491.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'aes_aes_core_0_2' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ip/aes_aes_core_0_2/synth/aes_aes_core_0_2.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'aes_core' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core.v:4]
+INFO: [Synth 8-6157] synthesizing module 'aes_core_slave_lite_v1_0_S00_AXI' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:153]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:388]
+INFO: [Synth 8-6157] synthesizing module 'aes_bridge' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes_bridge.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'aes' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized0' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized0' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized1' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized1' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized2' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized2' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized3' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized3' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized4' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized4' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized5' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized5' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized6' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized6' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized7' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized7' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized8' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized8' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized9' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized9' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized10' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized10' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized11' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized11' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized12' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized12' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes_bridge' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes_bridge.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes_core_slave_lite_v1_0_S00_AXI' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'aes_core' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'aes_aes_core_0_2' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ip/aes_aes_core_0_2/synth/aes_aes_core_0_2.sv:53]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1428.980 ; gain = 693.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1428.980 ; gain = 693.145
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1428.980 ; gain = 693.145
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.259 . Memory (MB): peak = 1428.980 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1483.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.253 . Memory (MB): peak = 1492.598 ; gain = 8.684
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1492.598 ; gain = 756.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1492.598 ; gain = 756.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1492.598 ; gain = 756.762
+---------------------------------------------------------------------------------
+
+*** Running vivado
+    with args -log aes_aes_core_0_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes_aes_core_0_2.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Fri May 29 14:57:17 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source aes_aes_core_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/proj/rijndael/ip_repo/aes_core_1_0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/proj/rijndael/ip_repo/aes_core_1_0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/proj/rijndael/ip_repo/aes_core_1_0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/proj/rijndael/ip_repo/aes_core_1_0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/proj/rijndael/ip_repo/aes_core_1_0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/proj/ip_repo/aes_core_1_0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/2025.1/Vivado/data/ip'.
+Command: synth_design -top aes_aes_core_0_2 -part xc7z007sclg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 35164
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1227.535 ; gain = 492.438
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'aes_aes_core_0_2' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ip/aes_aes_core_0_2/synth/aes_aes_core_0_2.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'aes_core' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core.v:4]
+INFO: [Synth 8-6157] synthesizing module 'aes_core_slave_lite_v1_0_S00_AXI' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:153]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:388]
+INFO: [Synth 8-6157] synthesizing module 'aes_bridge' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes_bridge.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'aes' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized0' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized0' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized1' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized1' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized2' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized2' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized3' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized3' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized4' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized4' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized5' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized5' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized6' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized6' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized7' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized7' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized8' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized8' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized9' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized9' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized10' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized10' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized11' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized11' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'round__parameterized12' [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'round__parameterized12' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes_bridge' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/aes_bridge.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'aes_core_slave_lite_v1_0_S00_AXI' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'aes_core' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/hdl/aes_core.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'aes_aes_core_0_2' (0#1) [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ip/aes_aes_core_0_2/synth/aes_aes_core_0_2.sv:53]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'state_sb2sr_reg' and it is trimmed from '128' to '120' bits. [c:/proj/rijndael/rijndael.gen/sources_1/bd/aes/ipshared/cb72/src/round.sv:36]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module aes_core_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1429.426 ; gain = 694.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1429.426 ; gain = 694.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1429.426 ; gain = 694.328
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.229 . Memory (MB): peak = 1429.426 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1520.781 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 1525.426 ; gain = 4.645
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1525.426 ; gain = 790.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1525.426 ; gain = 790.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1525.426 ; gain = 790.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'aes_core_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'aes_core_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Waddr |                               01 |                               10
+                   Wdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'sequential' in module 'aes_core_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                               00
+                   Raddr |                               01 |                               10
+                   Rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'aes_core_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:06 ; elapsed = 00:03:08 . Memory (MB): peak = 1874.957 ; gain = 1139.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    128 Bit         XORs := 1     
+	   2 Input      8 Bit         XORs := 522   
+	   3 Input      8 Bit         XORs := 104   
+	   4 Input      8 Bit         XORs := 52    
+	   6 Input      8 Bit         XORs := 13    
+	   5 Input      8 Bit         XORs := 39    
++---Registers : 
+	              128 Bit    Registers := 14    
+	               32 Bit    Registers := 16    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 19    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 11    
+	  12 Input   32 Bit        Muxes := 11    
+	   2 Input    8 Bit        Muxes := 208   
+	   2 Input    4 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module aes_aes_core_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module aes_aes_core_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module aes_aes_core_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module aes_aes_core_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module aes_aes_core_0_2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module aes_aes_core_0_2 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:42 ; elapsed = 00:07:05 . Memory (MB): peak = 1896.938 ; gain = 1161.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:50 ; elapsed = 00:07:13 . Memory (MB): peak = 2059.375 ; gain = 1324.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:06:59 ; elapsed = 00:07:23 . Memory (MB): peak = 2067.488 ; gain = 1332.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:07:05 ; elapsed = 00:07:29 . Memory (MB): peak = 2089.398 ; gain = 1354.301
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:07:09 ; elapsed = 00:07:33 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:10 ; elapsed = 00:07:33 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:10 ; elapsed = 00:07:34 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:10 ; elapsed = 00:07:34 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:07:10 ; elapsed = 00:07:34 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:07:11 ; elapsed = 00:07:35 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |    11|
+|2     |LUT2  |   418|
+|3     |LUT3  |   474|
+|4     |LUT4  |   287|
+|5     |LUT5  |  1543|
+|6     |LUT6  |  9173|
+|7     |MUXF7 |  1396|
+|8     |MUXF8 |   256|
+|9     |FDRE  |  2304|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:07:11 ; elapsed = 00:07:35 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:07:00 ; elapsed = 00:07:39 . Memory (MB): peak = 2102.113 ; gain = 1271.016
+Synthesis Optimization Complete : Time (s): cpu = 00:07:11 ; elapsed = 00:07:43 . Memory (MB): peak = 2102.113 ; gain = 1367.016
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.091 . Memory (MB): peak = 2111.230 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1652 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2115.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f1a797e4
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 30 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:07:15 ; elapsed = 00:07:49 . Memory (MB): peak = 2115.012 ; gain = 1582.402
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.198 . Memory (MB): peak = 2115.012 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/proj/rijndael/rijndael.runs/aes_aes_core_0_2_synth_1/aes_aes_core_0_2.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP aes_aes_core_0_2, cache-ID = a3e21da217eab2a3
+INFO: [Coretcl 2-1174] Renamed 18 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2115.012 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/proj/rijndael/rijndael.runs/aes_aes_core_0_2_synth_1/aes_aes_core_0_2.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file aes_aes_core_0_2_utilization_synth.rpt -pb aes_aes_core_0_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May 29 15:05:15 2026...

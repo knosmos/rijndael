@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri May 29 14:57:16 2026
+# Process ID         : 28060
+# Current directory  : C:/proj/rijndael/rijndael.runs/aes_aes_core_0_2_synth_1
+# Command line       : vivado.exe -log aes_aes_core_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source aes_aes_core_0_2.tcl
+# Log file           : C:/proj/rijndael/rijndael.runs/aes_aes_core_0_2_synth_1/aes_aes_core_0_2.vds
+# Journal file       : C:/proj/rijndael/rijndael.runs/aes_aes_core_0_2_synth_1\vivado.jou
+# Running On         : convolution
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 9 8945HS w/ Radeon 780M Graphics
+# CPU Frequency      : 3992 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16422 MB
+# Swap memory        : 22548 MB
+# Total Virtual      : 38970 MB
+# Available Virtual  : 10454 MB
+#-----------------------------------------------------------
+source aes_aes_core_0_2.tcl -notrace

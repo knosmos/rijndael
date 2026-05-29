@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/proj/rijndael/sw/app/build",
+  "command": "F:\\Xilinx\\2025.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -isystem C:/proj/rijndael/sw/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem F:/Xilinx/2025.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include -isystem F:/Xilinx/2025.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include-fixed -isystem F:/Xilinx/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/proj/rijndael/sw/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IC:/proj/rijndael/sw/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\app.elf.dir\\core.c.obj -c C:\\proj\\rijndael\\sw\\app\\src\\core.c",
+  "file": "C:\\proj\\rijndael\\sw\\app\\src\\core.c"
+},
+{
+  "directory": "C:/proj/rijndael/sw/app/build",
+  "command": "F:\\Xilinx\\2025.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -isystem C:/proj/rijndael/sw/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem F:/Xilinx/2025.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include -isystem F:/Xilinx/2025.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.3.0/include-fixed -isystem F:/Xilinx/2025.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/proj/rijndael/sw/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IC:/proj/rijndael/sw/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\app.elf.dir\\platform.c.obj -c C:\\proj\\rijndael\\sw\\app\\src\\platform.c",
+  "file": "C:\\proj\\rijndael\\sw\\app\\src\\platform.c"
+}
+]

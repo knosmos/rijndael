@@ -1,0 +1,36 @@
+verilog xil_defaultlib -i "F:/Xilinx/2025.1/Vivado/data/rsb/busdef" --include "F:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/ec67/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/6cfa/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/f0b6/hdl/verilog" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/a8e4/hdl/verilog" \
+"../../../bd/aes/ip/aes_processing_system7_0_0/sim/aes_processing_system7_0_0.v" \
+"../../../bd/aes/ipshared/cb72/hdl/aes_core_slave_lite_v1_0_S00_AXI.v" \
+"../../../bd/aes/ipshared/cb72/hdl/aes_core.v" \
+
+sv xil_defaultlib -i "F:/Xilinx/2025.1/Vivado/data/rsb/busdef" --include "F:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/ec67/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/6cfa/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/f0b6/hdl/verilog" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/a8e4/hdl/verilog" \
+"../../../bd/aes/ipshared/cb72/src/aes.sv" \
+"../../../bd/aes/ipshared/cb72/src/aes_bridge.sv" \
+"../../../bd/aes/ipshared/cb72/src/round.sv" \
+"../../../bd/aes/ip/aes_aes_core_0_2/sim/aes_aes_core_0_2.sv" \
+
+verilog xil_defaultlib -i "F:/Xilinx/2025.1/Vivado/data/rsb/busdef" --include "F:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/ec67/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/6cfa/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/f0b6/hdl/verilog" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/a8e4/hdl/verilog" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/sim/bd_bc9e.v" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_0/sim/bd_bc9e_one_0.v" \
+
+sv xil_defaultlib -i "F:/Xilinx/2025.1/Vivado/data/rsb/busdef" --include "F:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/ec67/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/6cfa/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/f0b6/hdl/verilog" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/a8e4/hdl/verilog" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_2/sim/bd_bc9e_s00mmu_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_3/sim/bd_bc9e_s00tr_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_4/sim/bd_bc9e_s00sic_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_5/sim/bd_bc9e_s00a2s_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_6/sim/bd_bc9e_sarn_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_7/sim/bd_bc9e_srn_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_8/sim/bd_bc9e_sawn_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_9/sim/bd_bc9e_swn_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_10/sim/bd_bc9e_sbn_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_11/sim/bd_bc9e_m00s2a_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/bd_0/ip/ip_12/sim/bd_bc9e_m00e_0.sv" \
+"../../../bd/aes/ip/aes_axi_smc_2/sim/aes_axi_smc_2.sv" \
+
+verilog xil_defaultlib -i "F:/Xilinx/2025.1/Vivado/data/rsb/busdef" --include "F:/Xilinx/2025.1/Vivado/data/xilinx_vip/include" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/ec67/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/6cfa/hdl" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/f0b6/hdl/verilog" --include "../../../../rijndael.gen/sources_1/bd/aes/ipshared/a8e4/hdl/verilog" \
+"../../../bd/aes/sim/aes.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
