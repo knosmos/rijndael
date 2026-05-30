@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1780002929" />
+    <testcase name="test_aes" classname="test_aes" file="C:\proj\aes\tb\test_aes.py" lineno="9" time="0.10112714767456055" sim_time_ns="240.001" ratio_time="2373.259856713772" />
+  </testsuite>
+</testsuites>

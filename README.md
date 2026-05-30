@@ -22,3 +22,4 @@ side channel attacks.
   - `aes_bridge.sv` maps the AXI registers into the 16-byte block I/O for AES and contains the 15 round keys.
   - `aes.sv` runs the actual AES algorithm, which consists of 14 stages.
   - `round.sv` implements a single AES stage.
+- `/test` contains a cocotb testbench for the AES core as well as a C reference implementation of AES.
